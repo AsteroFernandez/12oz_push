@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    text-align: center
+}
+
+.flex_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex_row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto:
+}
+
+
+.vadzik {
+    display: inline-block;
+    color: pink;
+    padding: 2em;
+    border: 2px solid pink;
+    border-radius: 5px;
+    text-align: center;
+    max-width: auto;
+    margin: 2em;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0,2em;
+    text-decoration: none;
+}
+
+.vadzik:hover {
+    background-image: linear-gradient(to left, rgba(42, 187, 54, 0), rgb(172, 170, 51));
+    cursor: progress;
+    transform: rotate(50deg);
+}
+.vadzik:active {
+    background-image: linear-gradient(to left, rgba(211, 32, 172, 0), rgb(12, 8, 8));
+    cursor: progress;
+    transform: rotate(100deg);
+}
+
+#vadzik1{
+    background-color: blueviolet
+}
+#vadzik2{
+    background-color: magenta
+}
