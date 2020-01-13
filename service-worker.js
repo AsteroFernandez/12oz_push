@@ -4,7 +4,7 @@
         isTest: "false" === "true",
         resourceToken: "vMWTdpd6CCw-dcb5877164f4dab9",
         apiServerHost: "pxl.ru.altkraft.com",
-        swPath: "/service-worker.js",
+        swPath: "/12oz_push/service-worker.js",
         firebase: {
             apiKey: "AIzaSyCKytKMb60Gh_DFp9E7pXdBWYAbcuxZyLU",
             projectId: "test-push-23406",
